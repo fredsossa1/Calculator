@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* .btn-operator {
+    @apply text-rose-400;
+  }
+  .btn-special {
+    @apply text-emerald-600;
+  } */
+
+  .top {
+  }
+
+  .light-button {
+    @apply fill-rose-200 h-5 w-5;
+  }
+  .dark-button {
+    @apply fill-rose-200 h-5 w-5;
+  }
+
+  .btn {
+    @apply mx-1 my-1 basis-1/4 rounded-lg;
+  }
+
+  .row {
+    @apply flex flex-row;
+  }
+
+  .bottom {
+    @apply w-60 rounded-lg backgroung-light;
+  }
+
+  /* Light Mode */
+
+  .backgroung-light {
+    @apply bg-gray-50;
+  }
+  .btn-ligth-digit {
+    @apply bg-gray-100 text-black btn;
+  }
+  .btn-light-operator {
+    @apply bg-gray-100 text-rose-400 btn;
+  }
+  .btn-light-special {
+    @apply bg-gray-100 text-emerald-600 btn;
+  }
+
+  /* Dark Mode */
+
+  .backgroung-dark {
+    @apply bg-zinc-800;
+  }
+  .btn-dark-digit {
+    @apply bg-slate-800 text-white btn;
+  }
+
+  .btn-dark-operator {
+    @apply bg-slate-800 text-rose-400 btn;
+  }
+  .btn-dark-special {
+    @apply bg-slate-800 text-emerald-600 btn;
+  }
+}
